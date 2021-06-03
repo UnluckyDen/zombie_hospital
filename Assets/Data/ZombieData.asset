@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e7a7f33c69e4f219c11fe1a821c985b, type: 3}
+  m_Name: ZombieData
+  m_EditorClassIdentifier: 
+  zombieSettings:
+  - name: Zombie_3
+    zombieTeethPrefab: {fileID: 5265473317253407637, guid: 7c6041c5bf78252419745abae8f466db,
+      type: 3}
+    zombieLimbPrefab: {fileID: 5981135415858242638, guid: 65f538668f9319742899609045e4d052,
+      type: 3}
+    zombieTrepanationPrefab: {fileID: 2885465523567640373, guid: d8c0fedf8c667164bbe3ddb118c36b49,
+      type: 3}
+    trayHandPrefabs:
+    - {fileID: 559449892391297768, guid: bfd3c82cc36e44a3799e50e8b788b394, type: 3}
+    - {fileID: 8198143541188596892, guid: 3b40c1c4b583f4b5c829eec3a3ebe767, type: 3}
+    handPrefab:
+    - {fileID: 6087340141408559714, guid: cc38ba680edb74fffafda8a46b47170f, type: 3}
+    - {fileID: 6356795376771732751, guid: d066f441f80a24056bdc4ea4270fbada, type: 3}
+    zombieAvatar: {fileID: 21300000, guid: ba8ad947ec93d724b96142825c2f79bd, type: 3}
+    springHand: {fileID: 2672397641875697925, guid: 7048f268533064609b1ea1b53d00c732,
+      type: 3}
+    hand: {fileID: 5219423129140075266, guid: b78ab47f257b84aea832b80196e6d69d, type: 3}
+  - name: Zombie_2
+    zombieTeethPrefab: {fileID: 1491219232539499493, guid: 7c68e1f487e41184088ce7880f35e0de,
+      type: 3}
+    zombieLimbPrefab: {fileID: 2329630847331420635, guid: 5e5a8d42aafd69047848d33810a5e495,
+      type: 3}
+    zombieTrepanationPrefab: {fileID: 434922216906018931, guid: 6468d5bb438dd0047b391f2d4f9641f8,
+      type: 3}
+    trayHandPrefabs:
+    - {fileID: 4779279465828664688, guid: 3e3e3d26f91cb4246a35b734cde1a357, type: 3}
+    - {fileID: 6712465092622293398, guid: 051a43e7b7ae24495891da02ec49d125, type: 3}
+    handPrefab:
+    - {fileID: 1869907155775787541, guid: 68511e9a8eb974444adfe5831b872dd6, type: 3}
+    - {fileID: 2625760621222384133, guid: 51b11da400b4d4ae49bf09ac638c08ea, type: 3}
+    zombieAvatar: {fileID: 21300000, guid: 9c7a00d57b8137944aa4bf38c219d27c, type: 3}
+    springHand: {fileID: 6684747124844744676, guid: 2415d6ef51d5c437ab39359c666303ca,
+      type: 3}
+    hand: {fileID: 5190571423386619468, guid: 2e26415a70f714decb832bad18f5b0c0, type: 3}
+  - name: Zombie_3
+    zombieTeethPrefab: {fileID: 5265473317253407637, guid: 7c6041c5bf78252419745abae8f466db,
+      type: 3}
+    zombieLimbPrefab: {fileID: 5981135415858242638, guid: 65f538668f9319742899609045e4d052,
+      type: 3}
+    zombieTrepanationPrefab: {fileID: 2885465523567640373, guid: d8c0fedf8c667164bbe3ddb118c36b49,
+      type: 3}
+    trayHandPrefabs:
+    - {fileID: 559449892391297768, guid: bfd3c82cc36e44a3799e50e8b788b394, type: 3}
+    - {fileID: 8198143541188596892, guid: 3b40c1c4b583f4b5c829eec3a3ebe767, type: 3}
+    handPrefab:
+    - {fileID: 6087340141408559714, guid: cc38ba680edb74fffafda8a46b47170f, type: 3}
+    - {fileID: 6356795376771732751, guid: d066f441f80a24056bdc4ea4270fbada, type: 3}
+    zombieAvatar: {fileID: 21300000, guid: ba8ad947ec93d724b96142825c2f79bd, type: 3}
+    springHand: {fileID: 2672397641875697925, guid: 7048f268533064609b1ea1b53d00c732,
+      type: 3}
+    hand: {fileID: 5219423129140075266, guid: b78ab47f257b84aea832b80196e6d69d, type: 3}
+  - name: Zombie_2
+    zombieTeethPrefab: {fileID: 1491219232539499493, guid: 7c68e1f487e41184088ce7880f35e0de,
+      type: 3}
+    zombieLimbPrefab: {fileID: 2329630847331420635, guid: 5e5a8d42aafd69047848d33810a5e495,
+      type: 3}
+    zombieTrepanationPrefab: {fileID: 434922216906018931, guid: 6468d5bb438dd0047b391f2d4f9641f8,
+      type: 3}
+    trayHandPrefabs:
+    - {fileID: 4779279465828664688, guid: 3e3e3d26f91cb4246a35b734cde1a357, type: 3}
+    - {fileID: 6712465092622293398, guid: 051a43e7b7ae24495891da02ec49d125, type: 3}
+    handPrefab:
+    - {fileID: 1869907155775787541, guid: 68511e9a8eb974444adfe5831b872dd6, type: 3}
+    - {fileID: 2625760621222384133, guid: 51b11da400b4d4ae49bf09ac638c08ea, type: 3}
+    zombieAvatar: {fileID: 21300000, guid: 9c7a00d57b8137944aa4bf38c219d27c, type: 3}
+    springHand: {fileID: 6684747124844744676, guid: 2415d6ef51d5c437ab39359c666303ca,
+      type: 3}
+    hand: {fileID: 5190571423386619468, guid: 2e26415a70f714decb832bad18f5b0c0, type: 3}
+  - name: Zombie_3
+    zombieTeethPrefab: {fileID: 5265473317253407637, guid: 7c6041c5bf78252419745abae8f466db,
+      type: 3}
+    zombieLimbPrefab: {fileID: 5981135415858242638, guid: 65f538668f9319742899609045e4d052,
+      type: 3}
+    zombieTrepanationPrefab: {fileID: 2885465523567640373, guid: d8c0fedf8c667164bbe3ddb118c36b49,
+      type: 3}
+    trayHandPrefabs:
+    - {fileID: 559449892391297768, guid: bfd3c82cc36e44a3799e50e8b788b394, type: 3}
+    - {fileID: 8198143541188596892, guid: 3b40c1c4b583f4b5c829eec3a3ebe767, type: 3}
+    handPrefab:
+    - {fileID: 6087340141408559714, guid: cc38ba680edb74fffafda8a46b47170f, type: 3}
+    - {fileID: 6356795376771732751, guid: d066f441f80a24056bdc4ea4270fbada, type: 3}
+    zombieAvatar: {fileID: 21300000, guid: ba8ad947ec93d724b96142825c2f79bd, type: 3}
+    springHand: {fileID: 2672397641875697925, guid: 7048f268533064609b1ea1b53d00c732,
+      type: 3}
+    hand: {fileID: 5219423129140075266, guid: b78ab47f257b84aea832b80196e6d69d, type: 3}
+  - name: Zombie_2
+    zombieTeethPrefab: {fileID: 1491219232539499493, guid: 7c68e1f487e41184088ce7880f35e0de,
+      type: 3}
+    zombieLimbPrefab: {fileID: 2329630847331420635, guid: 5e5a8d42aafd69047848d33810a5e495,
+      type: 3}
+    zombieTrepanationPrefab: {fileID: 434922216906018931, guid: 6468d5bb438dd0047b391f2d4f9641f8,
+      type: 3}
+    trayHandPrefabs:
+    - {fileID: 4779279465828664688, guid: 3e3e3d26f91cb4246a35b734cde1a357, type: 3}
+    - {fileID: 6712465092622293398, guid: 051a43e7b7ae24495891da02ec49d125, type: 3}
+    handPrefab:
+    - {fileID: 1869907155775787541, guid: 68511e9a8eb974444adfe5831b872dd6, type: 3}
+    - {fileID: 2625760621222384133, guid: 51b11da400b4d4ae49bf09ac638c08ea, type: 3}
+    zombieAvatar: {fileID: 21300000, guid: 9c7a00d57b8137944aa4bf38c219d27c, type: 3}
+    springHand: {fileID: 6684747124844744676, guid: 2415d6ef51d5c437ab39359c666303ca,
+      type: 3}
+    hand: {fileID: 5190571423386619468, guid: 2e26415a70f714decb832bad18f5b0c0, type: 3}

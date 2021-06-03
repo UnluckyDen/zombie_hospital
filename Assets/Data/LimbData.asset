@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adb43692b2ae4214bc41f046727613a9, type: 3}
+  m_Name: LimbData
+  m_EditorClassIdentifier: 
+  zombiePosition: {x: -0.45, y: 2.1, z: -2.3}
+  zombieRotation: {x: 270, y: 0, z: -160}
+  teeth: {fileID: 8454526435088897667, guid: 85b2b018f2b644dc1a437b67422d8d06, type: 3}
+  teethTop: {fileID: 7206140922293431677, guid: 9e96dad4527e939438832e83b4232b30,
+    type: 3}
+  teethBottom: {fileID: 7206140922293431677, guid: 7b218d63ff9c7d54aa4aa9ecbf91e93d,
+    type: 3}
+  cameraStartPosition: {x: -1.27, y: 5, z: -4.8}
+  cameraStartRotation: {x: 50, y: 18.5, z: 0}
+  cameraDetachPosition: {x: -0.4, y: 4.3, z: -3.6}
+  cameraDetachRotation: {x: 60, y: 25, z: 0}
+  cameraSelectPosition: {x: 0.2, y: 4.715, z: -4.39}
+  cameraSelectRotation: {x: 60, y: 0, z: 0}
+  cameraScrewPosition: {x: 0.2, y: 4, z: -2.8}
+  cameraScrewRotation: {x: 70, y: 0, z: 0}
+  cameraSpeed: 5
+  tray: {fileID: 6969463866534768063, guid: 6b8dbb440f44d49adae1ccbd41714be5, type: 3}
+  traySpeed: 5
+  trayStartPosition: {x: 5, y: 1.96, z: -3.289}
+  trayPosition: {x: 0.2, y: 1.96, z: -3.289}
+  bloodPrefab: {fileID: 2235649358788227426, guid: ccc262dafe34a43018a58701a7fdad2b,
+    type: 3}
+  screwPrefab: {fileID: 3068607440544377834, guid: f03f24fa6430f400691ea4f8c410b34e,
+    type: 3}
+  screwPosition: {x: 5, y: 2, z: 0}
+  screwdriverPrefab: {fileID: 8884203143813567679, guid: ec6bb354581eb4d439a856270d5cb8c7,
+    type: 3}
+  screwdriverPosition: {x: 5, y: 2, z: 0}
+  rotationSpeed: 360
+  spinDistance: 0.22

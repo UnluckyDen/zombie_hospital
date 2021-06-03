@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d434a593f31467a963baba8611f9ca5, type: 3}
+  m_Name: TeethData
+  m_EditorClassIdentifier: 
+  loadSceneIndex: 2
+  zombiePosition: {x: 0, y: 2.15, z: -2.45}
+  originalHand: {fileID: 5190571423386619468, guid: 2e26415a70f714decb832bad18f5b0c0,
+    type: 3}
+  hammerPrefab: {fileID: 4999819426232329691, guid: b7d83a60e8c9641a3ab062d5c9b8c3da,
+    type: 3}
+  hammerPosition: {x: 0, y: 2.8, z: -3.2}
+  hammerSpeed: 5
+  xRange: 0.2
+  trayPrefab: {fileID: 6969463866534768063, guid: 862967635a84f4e0ead74cafdd259748,
+    type: 3}
+  trayStartPosition: {x: 5, y: 2.65, z: -3.5}
+  trayPosition: {x: 0, y: 2.65, z: -3.5}
+  cameraStartPosition: {x: 0, y: 3.7, z: -5.5}
+  cameraStartRotation: {x: 27, y: 0, z: 0}
+  cameraTeethPosition: {x: 0, y: 3.25, z: -3.99}
+  cameraTeethRotation: {x: 5, y: 0, z: 0}
+  cameraInsertPosition: {x: 0, y: 3.7, z: -4.65}
+  cameraInsertRotation: {x: 27, y: 0, z: 0}
+  cameraSpeed: 5
+  teeth:
+  - {fileID: 7181164449694304217, guid: bccc4c418c8d144ccb3c2fd2cec8415c, type: 3}
+  - {fileID: 5639343189434959653, guid: 7bf42fc43d6e64807982bb5a9267ce73, type: 3}
+  - {fileID: 3977247981330722792, guid: 28e1d1c54530e49fcba8cdf7804c6eaa, type: 3}
+  - {fileID: 9060158911886936709, guid: 033f98b4062d246c9b6437f4dfd28806, type: 3}
+  - {fileID: 7998957413419997487, guid: 2646eeb2dfd364e319f025de43f62483, type: 3}

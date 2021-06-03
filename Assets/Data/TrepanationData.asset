@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e5cc34a934491faee5097e5455aabd, type: 3}
+  m_Name: TrepanationData
+  m_EditorClassIdentifier: 
+  teethPrefab: {fileID: 8454526435088897667, guid: 85b2b018f2b644dc1a437b67422d8d06,
+    type: 3}
+  teethPrefabTop: {fileID: 7206140922293431677, guid: 9e96dad4527e939438832e83b4232b30,
+    type: 3}
+  teethPrefabBottom: {fileID: 7206140922293431677, guid: 7b218d63ff9c7d54aa4aa9ecbf91e93d,
+    type: 3}
+  zombiePosition: {x: -2.5, y: 1.37, z: -2.5}
+  zombieRotation: {x: 0, y: 270, z: 0}
+  zombieRotateSpeed: 100
+  cameraStartPosition: {x: -5.5, y: 3, z: -2.5}
+  cameraStartRotation: {x: 17, y: 90, z: 0}
+  cameraTrepanationPosition: {x: -4.5, y: 3, z: -2.5}
+  cameraTrepanationRotation: {x: 15, y: 90, z: 0}
+  cameraExtractionPosition: {x: -3.8, y: 4.3, z: -2.5}
+  cameraExtractionRotation: {x: 50, y: 90, z: 0}
+  cameraInsertPosition: {x: -4.2, y: 4.7, z: -2.5}
+  cameraInsertRotation: {x: 65, y: 90, z: 0}
+  cameraSpeed: 5
+  grinderGameObject: {fileID: 8895847706322368923, guid: 6289a3843d5614257b9e7c7ec7a1de3a,
+    type: 3}
+  grinderStartPosition: {x: -2.5, y: 5, z: -2.5}
+  grinderEndPosition: {x: -2.8, y: 3, z: -4}
+  grinderRotation: {x: 240, y: 90, z: 0}
+  grinderUseRotation: {x: 180, y: 90, z: 0}
+  grinderShiftPosition: {x: -0.05, y: 0.25, z: 0.18}
+  grinderUseShiftPosition: {x: -0.05, y: 0.15, z: 0.18}
+  trayGameObject: {fileID: 6969463866534768063, guid: bb815093b99ec45d58caca6a270f87ac,
+    type: 3}
+  trayStartPosition: {x: -10, y: 2.5, z: -2.5}
+  trayInsertPosition: {x: -3.8, y: 2.5, z: -2.5}
+  trayRotation: {x: 0, y: 90, z: 0}
+  trayItems:
+  - {fileID: 6914641574346988982, guid: f558e2d52ba114922bf8c567c6485f77, type: 3}
+  - {fileID: 883325243863592977, guid: 6fead5762d1ba459b856798a15800f86, type: 3}
+  staplerGameObject: {fileID: 4686174418246643744, guid: f716229b91d7d45cd89893aaa11061c7,
+    type: 3}
+  staplerStartPosition: {x: -3, y: 3, z: 1}
+  staplerEndPosition: {x: -3, y: 3, z: 1}
+  staplerRotation: {x: 180, y: 0, z: 20}
+  staplerUseRotation: {x: 180, y: 0, z: 0}
+  staplerShiftPosition: {x: -0.3, y: 0.1, z: 0}
+  staplerUseShiftPosition: {x: -0.2, y: -0.04, z: 0}
+  staplesCount: 15
+  stapleGameObject: {fileID: 7309246570898185190, guid: 80e2478fdbf8a46b6842bd6fd948fb49,
+    type: 3}
+  stapleShiftPosition: {x: 0.17, y: -0.01, z: 0}
+  stapleShiftRotation: {x: -30, y: 90, z: 20}
